@@ -3,6 +3,7 @@ $(readyNow);
 function readyNow() {
     console.log('ready now');
     $('#addEmployeeButton').on('click', addEmployeeData);
+    $('#addedEmployees').on('click', '.deleteEmployeeButton', removeEmployeeData);
 
 }
 
@@ -33,5 +34,7 @@ function addEmployeeData() {
 
     function removeEmployeeData() {
         console.log('removed employee data');
+        $(this).closest('tr').remove();
+
 
     }
