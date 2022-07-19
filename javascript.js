@@ -29,7 +29,7 @@ function addEmployeeData() {
 
 }
 
-    //function monthlyTotalSalaries()
+
 
 
     function removeEmployeeData() {
@@ -38,3 +38,29 @@ function addEmployeeData() {
 
 
     }
+
+//create employee object array and then run this function????
+
+
+
+    // function monthlyTotalSalaries(){
+    //     console.log('show me the money');
+    //     const overHead = $('#monthlyTotal');-------> add #monthlyTotal etc in html
+    //     let total = 0;
+    //     for(let i = 0; i < employee.length; i++){
+    //         total += Number(employee[i].annualSalary);
+    //         if(total > 20000){
+    //         console.log('womp womp', total);
+    //             $('#monthlyTotal').css('background-color', 'red')-------> add in css or html?
+    //         }
+    //     }
+    //     console.log('total monthly', total);
+    
+    //     const totalMonth = total
+        
+    //     totalmonth.empty();
+    //     totalmonth.append(monthlyTotal)
+    
+    // } 
+
+    
