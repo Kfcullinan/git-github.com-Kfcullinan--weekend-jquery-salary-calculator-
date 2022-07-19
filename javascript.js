@@ -1,12 +1,13 @@
 console.log("helloWorld");
-
+$(readyNow);
 function readyNow() {
-    console.log('ready now')
-    $('addEmployeeButton').on('click', addEmployeeData);
+    console.log('ready now');
+    $('#addEmployeeButton').on('click', addEmployeeData);
 
 }
 
 function addEmployeeData() {
+    console.log('in addEmployee')
     let firstName = $('#firstNameInput').val();
     let lastName = $('#lastNameInput').val();
     let id = $('#idInput').val();
@@ -19,10 +20,18 @@ function addEmployeeData() {
                 <td>${id}</td>
                 <td>${title}</td>
                 <td>${yearlySalary}</td>
-                <td><button id="deleteEmployee">Delete</button></td>
+                <td><button>Delete</button></td>
                 
                 
             </tr>
     `)
 
 }
+
+    //function monthlyTotalSalaries()
+
+
+    function removeEmployeeData() {
+        console.log('removed employee data');
+
+    }
